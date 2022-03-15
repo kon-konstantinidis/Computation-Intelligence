@@ -1,0 +1,9 @@
+Best model has F-Measure = 0.18181878328323364 with parameters:
+64 neurons on 1st hidden layer
+512 neurons on 2nd hideen layer
+1e-06 regularization parameter
+0.01 learning rateBest parameterized model on test set:
+| Accuracy: 0.097
+| Recall: 0.1
+| Precision: 1.0
+| F-Measure: 0.182

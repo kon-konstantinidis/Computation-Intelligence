@@ -1,0 +1,16 @@
+1. Default Model | Batch-size: 1 | Duration: 3729.1867599487305 sec | Test accuracy: 0.96670001745224 
+1. Default Model | Batch-size: 256 | Duration: 44.31820797920227 sec | Test accuracy: 0.9814000129699707 
+1. Default Model | Batch-size: 48000 | Duration: 23.505635023117065 sec | Test accuracy: 0.9535999894142151 
+
+2. RMSprop Optimizer | rho: 0.01 | Duration: 50.98738503456116 sec | Test accuracy: 0.9761999845504761 
+2. RMSprop Optimizer | rho: 0.99 | Duration: 47.658008098602295 sec | Test accuracy: 0.9764000177383423 
+
+3. SGD Optimizer | Duration: 40.26227307319641 sec | Test accuracy: 0.11349999904632568 
+
+4. SGD Optimizer - L2 Regularization | a: 0.1 | Duration: 42.67084789276123 sec | Test accuracy: 0.11349999904632568 
+4. SGD Optimizer - L2 Regularization | a: 0.01 | Duration: 42.53153896331787 sec | Test accuracy: 0.11349999904632568 
+4. SGD Optimizer - L2 Regularization | a: 0.001 | Duration: 42.75456786155701 sec | Test accuracy: 0.11349999904632568 
+
+5. SGD Optimizer - L1 Regularization | Duration: 52.62989115715027 sec | Test accuracy: 0.11349999904632568 
+
+
